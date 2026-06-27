@@ -6,8 +6,7 @@ const menuData = [
     price: "₹120",
     description: "A flavorful feast of juicy chicken, fragrant rice, and rich spices.",
     special: true,
-      available: false,
-status: "Currently Unavailable",
+    
     image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
   },
   {
@@ -16,8 +15,7 @@ status: "Currently Unavailable",
     price: "₹240",
     description: "A rich and flavorful biryani made with succulent mutton and premium spices",
     special: true,
-    available: false,
-status: "Currently Unavailable",
+
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFV233WEI757qC8mqOGajVXdrQpDYobFYij2n6-wXgKw&s=10"
   },
   {
@@ -26,8 +24,7 @@ status: "Currently Unavailable",
     price: "₹99",
     description: "A complete South Indian feast featuring flavorful non-veg dishes and accompaniments",
     special: false,
-    available: false,
-status: "Currently Unavailable",
+ 
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUd-CLxH9789qFB9GdfFVUYWmZelu9biYOHG3ylZvhg&s=10"
   },
   {
