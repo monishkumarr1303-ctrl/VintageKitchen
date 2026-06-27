@@ -1,6 +1,30 @@
 const menuData = [
   // Lunch
-    
+      {
+    name: "Chicken Biryani Buy 1 Get 1 Free",
+    category: "lunch",
+    price: "₹120",
+    description: "Fragrant basmati rice cooked with tender chicken and aromatic spices.",
+    special: true,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZExkLqeOoaMj61H-LtisTk-sc42eXDLVpJjfqoTH7V5BGAT4e3nIAz10&s=10"
+  },
+    {
+    name: "Mutton Biryani Buy 2 Get 1 Free",
+    category: "lunch",
+    price: "₹240",
+    description: "Flavorful biryani prepared with tender mutton and aromatic spices.",
+    special: true,
+    image: "https://www.kannammacooks.com/wp-content/uploads/Tamil-style-mutton-biryani-pic.jpg"
+  },
+    {
+    name: "Non Veg Meals at 99",
+    category: "meals",
+    price: "₹120",
+    description: "A delicious non-vegetarian meal served with rice, chicken gravy, vegetables, and traditional side dishes.",
+    special: true,
+   
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRfSfLvsbfGFARNf6-U0q8pV34CVl84RZXPgmcRgYxq3VwoP_6837q1qJ&s=10"
+  },
   {
     name: "Veg Meals",
     category: "meals",
@@ -11,36 +35,9 @@ const menuData = [
     status: "Currently Unavailable",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhD0HRbgyt--wdjqMolJbGb0oBY7wMjqJ62JSqdJT0_TnepZEPS1LCn50&s=10"
   },
-  {
-    name: "Non Veg Meals",
-    category: "meals",
-    price: "₹120",
-    description: "A delicious non-vegetarian meal served with rice, chicken gravy, vegetables, and traditional side dishes.",
-    special: true,
-    available: false,
-    status: "Currently Unavailable",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRfSfLvsbfGFARNf6-U0q8pV34CVl84RZXPgmcRgYxq3VwoP_6837q1qJ&s=10"
-  },
-  {
-    name: "Chicken Biryani",
-    category: "lunch",
-    price: "₹120",
-    description: "Fragrant basmati rice cooked with tender chicken and aromatic spices.",
-    special: true,
-    available: false,
-    status: "Currently Unavailable",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZExkLqeOoaMj61H-LtisTk-sc42eXDLVpJjfqoTH7V5BGAT4e3nIAz10&s=10"
-  },
-  {
-    name: "Mutton Biryani",
-    category: "lunch",
-    price: "₹240",
-    description: "Flavorful biryani prepared with tender mutton and aromatic spices.",
-    special: true,
-    available: false,
-    status: "Currently Unavailable",
-    image: "https://www.kannammacooks.com/wp-content/uploads/Tamil-style-mutton-biryani-pic.jpg"
-  },
+
+
+
   {
     name: "Chicken Gravy",
     category: "dinner",
