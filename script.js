@@ -13,7 +13,7 @@ const menuData = [
     category: "lunch & Dinner",
     price: "₹240",
     description: "A rich and flavorful biryani made with succulent mutton and premium spices",
-    special: false,
+    special: true,
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFV233WEI757qC8mqOGajVXdrQpDYobFYij2n6-wXgKw&s=10"
   },
   {
