@@ -35,11 +35,13 @@ const menuData = [
     image: "https://i.pinimg.com/474x/a4/84/22/a4842242d724a6814d167df1bdbed934.jpg"
   },
   {
-    name: "Chicken Rice",
-    category: "lunch & Dinner",
-    price: "₹120",
-    description: "Chicken Rice is a delicious and flavorful dish made with fragrant rice, tender chicken pieces, aromatic spices, and fresh herbs. It's a satisfying meal enjoyed by food lovers of all ages.",
-    special: false,
+     name: "Chicken Fried Rice",
+  category: "lunch & dinner",
+  price: "₹120",
+  description: "Flavorful fried rice cooked with juicy chicken, vegetables, and aromatic spices.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
     image: "https://i.ytimg.com/vi/rcbCY26CLX4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC7qkR4bga9j2VQyiIpCKTyWJWj_A"
   },
   {
