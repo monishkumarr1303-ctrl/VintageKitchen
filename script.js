@@ -1,5 +1,13 @@
 const menuData = [
   // Lunch
+    {
+    name: "Chicken Biryani",
+    category: "lunch",
+    price: "₹120",
+    description: "A flavorful feast of juicy chicken, fragrant rice, and rich spices.",
+    special: true,
+    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
+  },
   {
     name: "Mutton Briyani",
     category: "lunch & Dinner",
@@ -64,14 +72,7 @@ const menuData = [
     special: true,
     image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2018/02/onion-uthappam.jpg?fit=500%2C553&ssl=1"
   },
-  {
-    name: "Chicken Biryani",
-    category: "lunch",
-    price: "₹120",
-    description: "A flavorful feast of juicy chicken, fragrant rice, and rich spices.",
-    special: true,
-    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
-  },
+
 
   // Dinner
   {
