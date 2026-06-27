@@ -291,6 +291,216 @@ const menuData = [
     status: "Currently Unavailable",
     image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
   },
+  {
+  name: "Mushroom Dosa",
+  category: "breakfast",
+  price: "₹90",
+  description: "A crispy dosa filled with flavorful mushrooms, onions, and aromatic South Indian spices.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+},
+{
+  name: "Paneer Dosa",
+  category: "breakfast",
+  price: "₹90",
+  description: "A crispy dosa stuffed with soft paneer, fresh vegetables, and flavorful spices.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+},
+{
+  name: "Chicken Kari Dosa",
+  category: "breakfast",
+  price: "₹120",
+  description: "A crispy dosa topped with spicy minced chicken, onions, and traditional South Indian spices.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+},
+{
+  name: "Mutton Kari Dosa",
+  category: "breakfast",
+  price: "₹120",
+  description: "A delicious dosa layered with spicy minced mutton and aromatic spices for a rich flavor.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+},
+{
+  name: "Ghee Dosa",
+  category: "breakfast",
+  price: "₹90",
+  description: "Golden crispy dosa roasted with pure ghee for a rich aroma and authentic taste.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+},
+{
+  name: "Egg Dosa",
+  category: "breakfast",
+  price: "₹40",
+  description: "A crispy dosa topped with a freshly beaten egg and seasoned with aromatic spices.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+},
+{
+  name: "Uthappam",
+  category: "breakfast",
+  price: "₹25",
+  description: "A soft and thick South Indian pancake made from fermented rice and lentil batter.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+},
+{
+  name: "Onion Uthappam",
+  category: "breakfast",
+  price: "₹25",
+  description: "Soft uthappam topped with freshly chopped onions, herbs, and flavorful spices.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+},
+{
+  name: "Omelette",
+  category: "egg",
+  price: "₹20",
+  description: "A fluffy omelette prepared with fresh eggs, onions, green chilies, and herbs.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400"
+},
+{
+  name: "Half Boil Omelette",
+  category: "egg",
+  price: "₹20",
+  description: "A perfectly cooked half-boiled egg with a soft and creamy yolk.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400"
+},
+{
+  name: "One Side Omelette",
+  category: "egg",
+  price: "₹20",
+  description: "A one-side cooked omelette with a soft texture and rich egg flavor.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400"
+},
+{
+  name: "Double Omelette",
+  category: "egg",
+  price: "₹40",
+  description: "A hearty double-egg omelette seasoned with onions, herbs, and spices.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400"
+},
+{
+  name: "Kalakki",
+  category: "egg",
+  price: "₹20",
+  description: "A soft and creamy scrambled egg prepared in traditional South Indian style.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400"
+},
+{
+  name: "Onion Kalakki",
+  category: "egg",
+  price: "₹20",
+  description: "Soft scrambled eggs mixed with onions, green chilies, and aromatic spices.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400"
+},
+{
+  name: "Kulambu Kalakki",
+  category: "egg",
+  price: "₹20",
+  description: "Traditional Kalakki served with flavorful South Indian kulambu for a delicious combination.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400"
+},
+{
+  name: "Veg Fried Rice",
+  category: "dinner",
+  price: "₹100",
+  description: "Aromatic fried rice tossed with fresh vegetables and flavorful seasonings.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400"
+},
+{
+  name: "Veg Fried Noodles",
+  category: "dinner",
+  price: "₹100",
+  description: "Stir-fried noodles with fresh vegetables and delicious Indo-Chinese flavors.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400"
+},
+{
+  name: "Egg Fried Rice",
+  category: "dinner",
+  price: "₹100",
+  description: "Flavorful fried rice tossed with scrambled eggs, vegetables, and aromatic seasonings.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400"
+},
+{
+  name: "Egg Fried Noodles",
+  category: "dinner",
+  price: "₹100",
+  description: "Stir-fried noodles mixed with eggs, vegetables, and savory sauces.",
+  special: false,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400"
+},
+{
+  name: "Chicken Fried Rice",
+  category: "dinner",
+  price: "₹120",
+  description: "A delicious combination of fried rice, tender chicken pieces, and flavorful seasonings.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400"
+},
+{
+  name: "Chicken Fried Noodles",
+  category: "dinner",
+  price: "₹120",
+  description: "Stir-fried noodles tossed with juicy chicken, vegetables, and authentic Indo-Chinese sauces.",
+  special: true,
+  available: false,
+  status: "Currently Unavailable",
+  image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400"
+}
 
 
 
