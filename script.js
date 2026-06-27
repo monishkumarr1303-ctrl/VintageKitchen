@@ -138,7 +138,7 @@ const menuData = [
     description: "Nool Parotta is a soft and delicate South Indian flatbread made with thin, thread-like layers, offering a light texture that pairs perfectly with salna, chicken gravy, or mutton curry.",
     special: false,
     image: "https://5.imimg.com/data5/SELLER/Default/2026/2/586720916/LY/RH/WL/70041647/80g-nool-paratha.jpg"
-  },add thiss all items this type and rate also mentioned
+  },
 
   
 ];
