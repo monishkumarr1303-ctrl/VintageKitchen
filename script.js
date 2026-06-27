@@ -30,6 +30,7 @@ const menuData = [
     price: "₹20",
     description: "Parotta is a popular South Indian layered flatbread made from refined wheat flour. It is soft, flaky, and crispy on the outside, typically served with salna, chicken curry, mutton curry, or vegetarian gravies",
     special: true,
+    available: false,
     status: "Currently Unavailable",
     image: "https://i.pinimg.com/474x/a4/84/22/a4842242d724a6814d167df1bdbed934.jpg"
   },
