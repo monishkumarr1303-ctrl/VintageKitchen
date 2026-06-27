@@ -186,6 +186,16 @@ nav a:hover::after{
   transform: translateY(-3px);
   box-shadow: 0 12px 40px rgba(212, 175, 55, 0.6);
 }
+.unavailable{
+    display:inline-block;
+    padding:6px 10px;
+    background:#d32f2f;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    border-radius:5px;
+    text-transform:uppercase;
+}
 
 .menu-section {
   padding: 100px 50px;
