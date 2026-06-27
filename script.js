@@ -1,175 +1,298 @@
 const menuData = [
   // Lunch
-    {
-    name: "Chicken Biryani",
-    category: "lunch",
-    price: "₹120",
-    description: "A flavorful feast of juicy chicken, fragrant rice, and rich spices.",
-    special: true,
     
-    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
-  },
   {
-    name: "Mutton Briyani",
-    category: "lunch & Dinner",
-    price: "₹240",
-    description: "A rich and flavorful biryani made with succulent mutton and premium spices",
-    special: true,
-
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFV233WEI757qC8mqOGajVXdrQpDYobFYij2n6-wXgKw&s=10"
-  },
-  {
-    name: "Non-Veg Meals",
-    category: "lunch",
-    price: "₹99",
-    description: "A complete South Indian feast featuring flavorful non-veg dishes and accompaniments",
-    special: false,
- 
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUd-CLxH9789qFB9GdfFVUYWmZelu9biYOHG3ylZvhg&s=10"
-  },
-  {
-    name: "parotta",
-    category: "lunch & Dinner",
-    price: "₹20",
-    description: "Parotta is a popular South Indian layered flatbread made from refined wheat flour. It is soft, flaky, and crispy on the outside, typically served with salna, chicken curry, mutton curry, or vegetarian gravies",
+    name: "Veg Meals",
+    category: "meals",
+    price: "₹100",
+    description: "A wholesome South Indian vegetarian meal served with rice, sambar, rasam, vegetables, curd, and accompaniments.",
     special: true,
     available: false,
     status: "Currently Unavailable",
-    image: "https://i.pinimg.com/474x/a4/84/22/a4842242d724a6814d167df1bdbed934.jpg"
+    image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400"
   },
   {
-     name: "Chicken Fried Rice",
-  category: "lunch & dinner",
-  price: "₹120",
-  description: "Flavorful fried rice cooked with juicy chicken, vegetables, and aromatic spices.",
-  special: true,
-  available: false,
-  status: "Currently Unavailable",
-    image: "https://i.ytimg.com/vi/rcbCY26CLX4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC7qkR4bga9j2VQyiIpCKTyWJWj_A"
-  },
-  {
-    name: "Bun parotta",
-    category: "lunch & Dinner",
-    price: "₹25",
-    description: "Bun Parotta is a soft, thick, and fluffy South Indian layered flatbread with a golden, crispy exterior and a light, buttery texture. It pairs perfectly with salna, chicken curry, mutton curry, or vegetarian gravies.",
-    special: false,
-    available: false,
-status: "Currently Unavailable",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFrm88HPxaUgsrSiJ5fNcAlDAZ9ZlhHqYpenEIXqM4-Gpo8KgMN_z4Apov&s=10"
-  },
-  {
-    name: "Grill Chicken",
-    category: "lunch & Dinner",
-    price: "₹400",
-    description: "Grill Chicken is tender, juicy chicken marinated with aromatic herbs, spices, and seasonings, then grilled to perfection for a smoky, flavorful taste.",
-    special: false,
-    available: false,
-status: "Currently Unavailable",
-    image: "https://www.seriouseats.com/thmb/Xg3PF38VgjCJ84927mLRBorlMoU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SEA-the-best-barbecue-chicken-recipe-hero-updated-9cb214fe8fe8438992e049f8be51a708.jpg"
-  },
-  {
-    name: "Masala Dosa",
-    category: "Dinner",
-    price: "₹40",
-    description: "Masala Dosa is a classic South Indian dish featuring a crispy, golden dosa filled with a flavorful potato masala, served with fresh coconut chutney and hot sambar.",
-    special: false,
-    available: false,
-status: "Currently Unavailable",
-    image: "https://static.toiimg.com/thumb/54289752.cms?imgsize=495844&width=800&height=800"
-  },
-  {
-    name: "Oninon Dosa",
-    category: "Dinner",
-    price: "₹40",
-    description: "Onion Dosa is a crispy South Indian dosa topped with freshly chopped onions, aromatic spices, and herbs, offering a flavorful and satisfying bite.",
+    name: "Non Veg Meals",
+    category: "meals",
+    price: "₹120",
+    description: "A delicious non-vegetarian meal served with rice, chicken gravy, vegetables, and traditional side dishes.",
     special: true,
     available: false,
-status: "Currently Unavailable",
-    image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2018/02/onion-uthappam.jpg?fit=500%2C553&ssl=1"
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?w=400"
   },
-
-
-  // Dinner
   {
-    name: "Veg Meals",
-    category: "Lunch",
-    price: "₹80",
-    description: "Veg Meals is a wholesome South Indian meal featuring steamed rice, sambar, rasam, vegetable curries, poriyal, curd, pickle, papad, and other traditional accompaniments.",
-    special: false,
+    name: "Chicken Biryani",
+    category: "lunch",
+    price: "₹120",
+    description: "Fragrant basmati rice cooked with tender chicken and aromatic spices.",
+    special: true,
     available: false,
-status: "Currently Unavailable",
-    image: "https://img.clevup.in/268918/1666623878932_SKU-0001_2.jpeg?width=600&format=webp"
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
   },
   {
-    name: "Vazha Ellai Parotta",
-    category: "dinner",
-    price: "₹140",
-    description: "Vazha Ellai Parotta is a soft, flaky South Indian parotta served fresh on a traditional banana leaf, enhancing its authentic aroma and flavor. Best enjoyed with salna or your favorite curry.",
-    special: false,
+    name: "Mutton Biryani",
+    category: "lunch",
+    price: "₹240",
+    description: "Flavorful biryani prepared with tender mutton and aromatic spices.",
+    special: true,
     available: false,
-status: "Currently Unavailable",
-    image: "https://i.pinimg.com/736x/80/14/a8/8014a85074524ed4b9ab2f3e3f5dcd04.jpg"
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=400"
   },
   {
-    name: "Pepper Chicken",
+    name: "Chicken Gravy",
     category: "dinner",
     price: "₹120",
-    description: "Pepper Chicken is a spicy South Indian dish made with tender chicken, freshly ground black pepper, aromatic spices, curry leaves, and onions, delivering a bold and flavorful taste.",
+    description: "Tender chicken cooked in a rich and flavorful South Indian gravy.",
     special: true,
     available: false,
-status: "Currently Unavailable",
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400"
+  },
+  {
+    name: "Mutton Gravy",
+    category: "dinner",
+    price: "₹180",
+    description: "Slow-cooked mutton in a rich and aromatic spicy gravy.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400"
+  },
+  {
+    name: "Chicken 65 Gravy",
+    category: "dinner",
+    price: "₹120",
+    description: "Chicken 65 tossed in a spicy and flavorful gravy.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1604908176997-4312d1b8cc09?w=400"
+  },
+  {
+    name: "Chicken Sauce Gravy",
+    category: "dinner",
+    price: "₹100",
+    description: "Juicy chicken cooked in a delicious spicy sauce-based gravy.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400"
+  },
+  {
+    name: "Pepper Chicken Gravy",
+    category: "dinner",
+    price: "₹120",
+    description: "Pepper Chicken is a spicy South Indian dish made with tender chicken, freshly ground black pepper, aromatic spices, curry leaves, and onions.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
     image: "https://www.licious.in/blog/wp-content/uploads/2020/12/Pepper-Chicken.jpg"
   },
   {
-    name: "Chicken gravy",
+    name: "Chinthamani Chicken",
     category: "dinner",
-    price: "₹120",
-    description: "Chicken Gravy is a rich and flavorful curry made with tender chicken simmered in a blend of aromatic spices, onions, tomatoes, and herbs. Perfect with parotta, rice, naan, or chapati.",
+    price: "₹150",
+    description: "A spicy Chettinad-style dry chicken dish packed with bold flavors.",
     special: true,
     available: false,
-status: "Currently Unavailable",
-    image: "https://spiceeats.com/wp-content/uploads/2020/07/Chicken-Hyderabadi.jpg"
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400"
   },
   {
-    name: "Chicken Chilli 100g",
+    name: "Pallipalayam Chicken",
     category: "dinner",
-    price: "₹80",
-    description: "Chilli Chicken is a popular Indo-Chinese dish made with crispy chicken pieces tossed in a spicy, tangy sauce with onions, capsicum, garlic, and green chilies.",
+    price: "₹150",
+    description: "Traditional Kongu-style chicken prepared with coconut and red chilies.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400"
+  },
+  {
+    name: "Parotta",
+    category: "bread",
+    price: "₹20",
+    description: "Soft and flaky South Indian layered flatbread.",
     special: false,
     available: false,
-status: "Currently Unavailable",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAFuZHNsnNBdMC7owRlLHziUSkCa4ebQJE36PavLTRuPhl9QTL7HBwETk&s=10"
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1613292443284-8d10ef938cd8?w=400"
   },
   {
-    name: "Chicken Noodles",
-    category: "lunch & dinner",
-    price: "₹",
-    description: "Chicken Noodles is a flavorful dish made with stir-fried noodles, tender chicken, fresh vegetables, and aromatic sauces for a delicious and satisfying meal.",
+    name: "Kothu Parotta",
+    category: "bread",
+    price: "₹80",
+    description: "Shredded parotta stir-fried with spices and vegetables.",
     special: true,
     available: false,
-status: "Currently Unavailable",
-    image: "https://i.ytimg.com/vi/AthGc8rDtHc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBKCIUxnMEG2RckocssDomFLdjmLA"
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1613292443284-8d10ef938cd8?w=400"
   },
   {
-    name: "Kari Dosa",
-    category: "dinner",
-    price: "₹120",
-    description: "Kari Dosa is a traditional South Indian dosa topped with flavorful minced mutton (kari), onions, spices, and egg, cooked to crispy perfection for a rich and satisfying taste.",
+    name: "Ilai Parotta",
+    category: "bread",
+    price: "₹150",
+    description: "Special banana leaf wrapped layered parotta.",
     special: true,
     available: false,
-status: "Currently Unavailable",
-    image: "https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/b60206a5acde6ce653079d2fdfe537c4"
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1613292443284-8d10ef938cd8?w=400"
+  },
+  {
+    name: "Veechu Parotta",
+    category: "bread",
+    price: "₹40",
+    description: "Thin and soft hand-stretched parotta.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1613292443284-8d10ef938cd8?w=400"
+  },
+  {
+    name: "Bun Parotta",
+    category: "bread",
+    price: "₹25",
+    description: "Soft, fluffy and thick South Indian bun parotta.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1613292443284-8d10ef938cd8?w=400"
   },
   {
     name: "Nool Parotta",
-    category: "dinner",
-    price: "₹30",
-    description: "Nool Parotta is a soft and delicate South Indian flatbread made with thin, thread-like layers, offering a light texture that pairs perfectly with salna, chicken gravy, or mutton curry.",
+    category: "bread",
+    price: "₹25",
+    description: "Fine string parotta served soft and delicious.",
     special: false,
     available: false,
-status: "Currently Unavailable",
-    image: "https://5.imimg.com/data5/SELLER/Default/2026/2/586720916/LY/RH/WL/70041647/80g-nool-paratha.jpg"
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1613292443284-8d10ef938cd8?w=400"
   },
+  {
+    name: "Porucha Parotta",
+    category: "bread",
+    price: "₹25",
+    description: "Crispy pan-fried parotta with rich flavor.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1613292443284-8d10ef938cd8?w=400"
+  },
+  {
+    name: "Chilli Parotta",
+    category: "bread",
+    price: "₹80",
+    description: "Spicy stir-fried parotta with onions and sauces.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1613292443284-8d10ef938cd8?w=400"
+  },
+  {
+    name: "Sevai",
+    category: "sevai",
+    price: "₹40",
+    description: "Traditional steamed rice noodles served with coconut and spices.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400"
+  },
+  {
+    name: "Onion Sevai",
+    category: "sevai",
+    price: "₹50",
+    description: "Rice sevai tossed with onions and mild spices.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400"
+  },
+  {
+    name: "Paneer Sevai",
+    category: "sevai",
+    price: "₹80",
+    description: "Soft rice sevai mixed with paneer and aromatic spices.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400"
+  },
+  {
+    name: "Egg Sevai",
+    category: "sevai",
+    price: "₹60",
+    description: "Rice sevai stir-fried with scrambled eggs and spices.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=400"
+  },
+  {
+    name: "Chapathi",
+    category: "bread",
+    price: "₹20",
+    description: "Soft whole wheat flatbread served fresh.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400"
+  },
+  {
+    name: "Idly",
+    category: "breakfast",
+    price: "₹10",
+    description: "Soft and fluffy steamed rice cakes served with chutney and sambar.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400"
+  },
+  {
+    name: "Podi Idly",
+    category: "breakfast",
+    price: "₹60",
+    description: "Mini idlis tossed with flavorful podi and ghee.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400"
+  },
+  {
+    name: "Dosa",
+    category: "breakfast",
+    price: "₹20",
+    description: "Classic crispy South Indian dosa.",
+    special: false,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+  },
+  {
+    name: "Onion Dosa",
+    category: "breakfast",
+    price: "₹70",
+    description: "Crispy dosa topped with fresh onions and spices.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+  },
+  {
+    name: "Masala Dosa",
+    category: "breakfast",
+    price: "₹80",
+    description: "Crispy dosa stuffed with spiced potato masala.",
+    special: true,
+    available: false,
+    status: "Currently Unavailable",
+    image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400"
+  },
+
+
 
   
 ];
