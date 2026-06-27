@@ -17,9 +17,9 @@ const menuData = [
     image: "https://www.kannammacooks.com/wp-content/uploads/Tamil-style-mutton-biryani-pic.jpg"
   },
     {
-    name: "Non Veg Meals at 99",
+    name: "Non Veg Meals",
     category: "meals",
-    price: "₹120",
+    price: "₹99",
     description: "A delicious non-vegetarian meal served with rice, chicken gravy, vegetables, and traditional side dishes.",
     special: true,
    
